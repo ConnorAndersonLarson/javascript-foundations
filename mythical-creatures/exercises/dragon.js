@@ -1,8 +1,12 @@
+//completed
+//talked through
+//erased + completed again, 12.7
+
 class Dragon {
   constructor(name, rider) {
     this.name = name,
     this.rider = rider,
-    this.hungry = true
+    this.hungry = true,
     this.hunger = 0
   }
 
@@ -11,13 +15,12 @@ class Dragon {
   }
 
   eat() {
-    this.hunger += 1
+    this.hunger += 1;
     if (this.hunger >= 3) {
-      this.hungry = false
+      this.hungry = false;
     }
   }
 
 }
-
 
 module.exports = Dragon;
